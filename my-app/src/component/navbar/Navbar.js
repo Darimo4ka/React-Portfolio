@@ -7,9 +7,10 @@ import PermContactCalendarIcon from "@mui/icons-material/PermContactCalendar";
 import { useState } from "react";
 
 const Navbar = () => {
+  
   const [activeNav, setActiveNav] = useState("/");
   return (
-    <nav>
+    <nav className="navbar">
       <a href="/"
         className={activeNav === "/" ? "active" : ""} onClick={() => setActiveNav("/")}><HomeIcon /></a>
       <a href="/about" className={activeNav === "/about" ? "active" : ""}onClick={() => setActiveNav("/about")}
