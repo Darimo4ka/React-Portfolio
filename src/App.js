@@ -5,9 +5,9 @@ import React from "react";
 import Navbar from './component/navbar/Navbar';
 // import Project from './component/project/Project';
 // import Header from './component/contact/Contact';
-// import Footer from './component/footer/Footer';
+import Footer from './component/footer/Footer';
 import AboutMe from './component/about/AboutMe';
-// import Contact from './component/contact/Contact';
+import Contact from './component/contact/Contact';
 
 function App() {
   return (
@@ -18,9 +18,9 @@ function App() {
       <div className="content">
         <h1>
           <AboutMe />
-          {/* <Project/>
-          <Contact/>
-          <Footer/> */}
+          {/* <Project/>*/}
+          <Contact />
+          <Footer />
         </h1>
       </div>
     </div>
