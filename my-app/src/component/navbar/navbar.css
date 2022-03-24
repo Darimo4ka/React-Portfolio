@@ -2,19 +2,20 @@
    padding: 20px;
    display: flex;
    align-items: center;
-   max-width: 600px;
+   max-width: all;
    margin: 0 auto;
    border-bottom: 1px solid #f2f2f2; 
   }
  .navbar h1 {
-   color: #f1356d;
+   color: #2a10c0;
+   
  }
  .navbar .links {
    margin-left: auto;
  }
  .navbar a {
-   margin-left: 16px;
-   text-decoration: none;
+   margin-right: 50px;
+   /* text-decoration: none; */
    padding: 6px;
  }
  .navbar a:hover {
@@ -26,7 +27,7 @@
    padding: 20px;
  }
 
-nav a:hover {
+/* nav a:hover {
   background: var(--color-light);
 }
 
@@ -41,5 +42,5 @@ nav a.active {
     left: 20%; 
     justify-content: center;
     top: 1rem;
-  }
-}
+  } */
+/* } */
