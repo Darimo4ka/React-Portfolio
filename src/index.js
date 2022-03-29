@@ -2,7 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
+// import { EmojiProvider, Emoji } from "react-apple-emojis";
+// import emojiData from "react-apple-emojis/lib/data.json";
 
 ReactDOM.render(
   <React.StrictMode>

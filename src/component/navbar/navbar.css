@@ -27,20 +27,11 @@
    padding: 20px;
  }
 
-/* nav a:hover {
+/* /* nav a:hover {
   background: var(--color-light);
 }
 
 nav a.active {
   background: var(--color-light);
   color: var(--color-dark);
-}
-
-@media screen and (max-width: 600px) {
-  nav {
-    flex-direction: row;
-    left: 20%; 
-    justify-content: center;
-    top: 1rem;
-  } */
-/* } */
+} */
