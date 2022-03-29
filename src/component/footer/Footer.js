@@ -8,19 +8,24 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 const Footer = () => {
   return (
     <div className="footer">
-      <div class="col-lg-4 mb-5 mb-lg-0">
+      <span>
         <a href="https://www.linkedin.com/in/darimabadmatsyrenova/">
           <LinkedInIcon />
         </a>
-
+      </span>
+      <span>
         <a href="https://github.com/Darimo4ka">
           <GitHubIcon />
         </a>
-
+      </span>
+      <span>
         <a href="https://www.instagram.com/darimachoy/">
           <InstagramIcon />
         </a>
-      </div>
+      </span>
+      <span>
+        <p>MIT License Copyright (c) 2022 Darimo4ka</p>
+      </span>
     </div>
   );
   }

@@ -9,7 +9,7 @@ import {
   Segment,
 } from "semantic-ui-react";
 // import { Link } from "react-router-dom";
-
+import "./project.css";
 const projectData = [
   {
     image: "images/note-taker.png",
@@ -62,7 +62,7 @@ const MyProjects = () => {
           <Card
             fluid
             key={i}
-            image={process.env.PUBLIC_URL + `${project.image}`}
+            image={project.image}
             header={project.title}
             description={project.description}
             extra={extra(project.link, project.repo)}

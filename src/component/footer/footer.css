@@ -6,6 +6,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
+  display: flex;
 }
 
  .footer.links {
@@ -24,3 +25,9 @@
    margin: 40px auto;
    padding: 20px;
  } */
+ .footer span{
+   flex-basis: 20%;
+ }
+ span p{
+   color: rgba(54, 117, 218, 0.972);
+ }
