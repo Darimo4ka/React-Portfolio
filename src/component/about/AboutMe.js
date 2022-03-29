@@ -14,11 +14,11 @@ const AboutMe = () => {
               <h4 className="lead">What I know:</h4>
               <ul className="list-group">
                 <li className="list-group-item bg-transparent text-blue">
-                  Javascript, SQL
+                  Javascript, SQL,React, CSS,  HTML
                 </li>
 
                 <li className="list-group-item bg-transparent text-blue">
-                  GitHub
+                  GitHub, Heroku.
                 </li>
               </ul>
             </div>

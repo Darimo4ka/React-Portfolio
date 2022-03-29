@@ -15,12 +15,12 @@ import Portfolio from "./component/portfolio/Portfolio";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
-          <Route exact path="/React-Portfolio/aboutme" element={<AboutMe/>}/>
-          <Route exact path ="/React-Portfolio/portfolio" element={<Portfolio/>}/>
-          <Route exact path ="/React-Portfolio/contact" element={<Contact />}/>
+          <Route exact path="/aboutme" element={<AboutMe/>}/>
+          <Route exact path ="/portfolio" element={<Portfolio/>}/>
+          <Route exact path ="/contact" element={<Contact />}/>
         </Routes >
         <Footer />
       </Router>
